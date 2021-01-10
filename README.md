@@ -5,6 +5,6 @@ The master branch includes following features:
 1. Drag and Reorder Recyclerview Items.
 
 # Drag and Reorder Recyclerview Items.
-Medium article explaing the implementation is under construction, will update here once it got published.
+Medium article enplaning the implementation is under construction, will update here once it got published.
 
 ![](media/reorder.gif)

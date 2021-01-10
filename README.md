@@ -4,3 +4,7 @@ This is a demo app designed for developers to show how to implement complex feat
 The master branch includes following features:
 1. Drag and Reorder Recyclerview Items.
 
+# Drag and Reorder Recyclerview Items.
+Medium article explaing the implementation is under construction
+
+

@@ -7,5 +7,4 @@ The master branch includes following features:
 # Drag and Reorder Recyclerview Items.
 Medium article explaing the implementation is under construction
 
-![](media/videoplayback.mp4)
 

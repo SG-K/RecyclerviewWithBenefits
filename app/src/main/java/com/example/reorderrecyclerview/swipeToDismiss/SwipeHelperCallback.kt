@@ -1,10 +1,11 @@
-package com.example.reorderrecyclerview.utils
+package com.example.reorderrecyclerview.swipeToDismiss
 
 import android.content.Context
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
+import com.example.reorderrecyclerview.utils.ItemTouchHelperAdapter
 
-class ReorderHelperCallback(val adapter : ItemTouchHelperAdapter) : ItemTouchHelper.Callback() {
+class SwipeHelperCallback(val adapter : ItemTouchHelperAdapter) : ItemTouchHelper.Callback() {
     override fun getMovementFlags(
         recyclerView: RecyclerView,
         viewHolder: RecyclerView.ViewHolder
@@ -12,7 +13,7 @@ class ReorderHelperCallback(val adapter : ItemTouchHelperAdapter) : ItemTouchHel
         val dragFlags = ItemTouchHelper.UP or ItemTouchHelper.DOWN
         val swipeFlags = ItemTouchHelper.START or ItemTouchHelper.END
         return makeMovementFlags(
-            dragFlags,
+            0,
             swipeFlags
         )
     }
@@ -22,12 +23,10 @@ class ReorderHelperCallback(val adapter : ItemTouchHelperAdapter) : ItemTouchHel
         source: RecyclerView.ViewHolder,
         target: RecyclerView.ViewHolder
     ): Boolean {
-        // Notify the adapter of the move
-        adapter.onItemMove(source.getAdapterPosition(), target.adapterPosition)
-        return true
+        TODO("Not yet implemented")
     }
 
     override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
-        TODO("Not yet implemented")
+        adapter.onItemDismiss(viewHolder.adapterPosition)
     }
 }

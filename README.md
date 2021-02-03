@@ -5,6 +5,6 @@ The master branch includes following features:
 1. Drag and Reorder Recyclerview Items.
 
 # Drag and Reorder Recyclerview Items.
-Medium article enplaning the implementation is under construction, will update here once it got published.
+You can find the detailed documentation about the code from [here](https://medium.com/better-programming/drag-to-reorder-android-recyclerview-items-using-kotlin-afcaee1b7fb5)
 
 ![](media/reorder.gif)

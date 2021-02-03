@@ -12,3 +12,5 @@ You can find the detailed documentation about the code from [here](https://mediu
 
 # Swipe to dismiss Recyclerview Items.
 I'll post the link to the article explaing the code once it got published.
+
+![](media/swipeToDismiss.gif)

@@ -1,4 +1,4 @@
-package com.example.reorderrecyclerview
+package com.example.reorderrecyclerview.reorder
 
 import android.view.MotionEvent
 import android.view.View
